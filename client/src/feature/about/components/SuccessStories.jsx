@@ -17,10 +17,9 @@ export default function SuccessStories() {
           {/* Vertical Line */}
           <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-400 via-yellow-400 to-blue-400 transform sm:-translate-x-1/2 rounded-full"></div>
 
-          {/* Timeline Items with Patient Photos */}
-          <div className="space-y-14">
+          <div className="space-y-0">
             {/* Story 1 */}
-            <div className="relative flex items-start sm:items-center">
+            <div className="relative flex items-start sm:items-center -mb-16 sm:-mb-20">
               <div className="absolute left-4 sm:left-1/2 w-5 h-5 bg-blue-600 rounded-full border-4 border-white shadow-lg transform sm:-translate-x-1/2 z-10"></div>
               <div className="ml-16 sm:ml-0 sm:w-1/2 sm:pr-12 sm:text-right">
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden border-l-4 sm:border-l-0 sm:border-r-4 border-blue-600">
@@ -45,7 +44,7 @@ export default function SuccessStories() {
             </div>
 
             {/* Story 2 */}
-            <div className="relative flex items-start sm:items-center">
+            <div className="relative flex items-start sm:items-center -mb-16 sm:-mb-20">
               <div className="absolute left-4 sm:left-1/2 w-5 h-5 bg-yellow-500 rounded-full border-4 border-white shadow-lg transform sm:-translate-x-1/2 z-10"></div>
               <div className="ml-16 sm:ml-0 sm:w-1/2 sm:pl-12 sm:ml-auto">
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden border-l-4 border-yellow-500">
