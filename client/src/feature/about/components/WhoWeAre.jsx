@@ -1,3 +1,5 @@
+import whoWeAreImage from "../../../assets/whoWeAre.jpg";
+
 export default function WhoWeAre() {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-16 sm:py-20">
@@ -35,7 +37,7 @@ export default function WhoWeAre() {
         {/* Image */}
         <div className="relative rounded-3xl overflow-hidden shadow-2xl h-80 sm:h-96 md:h-[450px] ring-4 ring-blue-200">
           <img
-            src="/ethiopian-healthcare-workers-helping-community.jpg"
+            src={whoWeAreImage}
             alt="HELP Ethiopia team members working with community"
             className="w-full h-full object-cover"
             loading="lazy"

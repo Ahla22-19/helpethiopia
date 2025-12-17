@@ -1,3 +1,6 @@
+import AAUImage from "../../../assets/AAU logo.png";
+import TkurAnbesaImage from "../../../assets/TkurAnbesa logo.jpg";
+
 const TrustedPartners = () => {
   const partners = [
     {
@@ -12,7 +15,7 @@ const TrustedPartners = () => {
         "Partnering on specialized medical training, patient referrals, and advanced healthcare delivery systems",
       color: "yellow",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 px-4 bg-gradient-to-br from-white to-blue-50">
@@ -38,21 +41,12 @@ const TrustedPartners = () => {
               } rounded-xl p-10 shadow-md hover:shadow-xl transition-all duration-300`}
             >
               <div className="flex justify-center mb-6">
-                {index === 0 ? (
-                  <img
-                    src="/addis-ababa-university-official-logo-with-blue-and.jpg"
-                    alt="Addis Ababa University Logo"
-                    className="w-24 h-24 object-contain"
-                    loading="lazy"
-                  />
-                ) : (
-                  <img
-                    src="/tikur-anbesa-hospital-official-logo-medical-cross-.jpg"
-                    alt="Tikur Anbesa Hospital Logo"
-                    className="w-24 h-24 object-contain"
-                    loading="lazy"
-                  />
-                )}
+                <img
+                  src={index === 0 ? AAUImage : TkurAnbesaImage}
+                  alt={`${partner.name} Logo`}
+                  className="w-36 h-36 object-contain" // same larger size for both
+                  loading="lazy"
+                />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-4 text-center">{partner.name}</h3>
               <p className="text-gray-600 text-sm text-center leading-relaxed">{partner.description}</p>
@@ -71,7 +65,7 @@ const TrustedPartners = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TrustedPartners
+export default TrustedPartners;

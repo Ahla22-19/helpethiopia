@@ -1,9 +1,12 @@
+import heroImage from "../../../assets/aboutUs_hero.jpg";
+
+
 export default function Hero() {
   return (
     <section className="relative w-full h-[260px] sm:h-[320px] md:h-[380px] flex items-start justify-center overflow-hidden">
       {/* Background Image */}
       <img
-        src="/ethiopian-community-people-working-together-helpin.jpg"
+         src={heroImage}
         alt="HELP Ethiopia Community Support"
         className="absolute inset-0 w-full h-full object-cover"
         loading="eager"
