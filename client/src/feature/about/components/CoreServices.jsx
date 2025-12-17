@@ -2,7 +2,7 @@ const CoreServices = () => {
   const services = [
     {
       icon: (
-        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -17,7 +17,7 @@ const CoreServices = () => {
     },
     {
       icon: (
-        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -32,7 +32,7 @@ const CoreServices = () => {
     },
     {
       icon: (
-        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -47,7 +47,7 @@ const CoreServices = () => {
     },
     {
       icon: (
-        <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -63,24 +63,26 @@ const CoreServices = () => {
   ]
 
   return (
-    <section className="py-12 px-4 bg-white">
+    <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-gray-800 mb-3">Our Core Services</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto text-sm">
-            We provide comprehensive support across multiple sectors to create lasting positive change in Ethiopian
-            communities
+        <div className="text-center mb-14">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+            Our Core <span className="text-yellow-500">Services</span>
+          </h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-yellow-500 mx-auto rounded-full mb-4"></div>
+          <p className="text-gray-600 max-w-2xl mx-auto text-base sm:text-lg">
+            Comprehensive support across multiple sectors to create lasting positive change
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-7">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 hover:border-yellow-400"
+              className="bg-white border-2 border-gray-200 rounded-xl p-7 hover:shadow-lg hover:border-blue-400 transition-all duration-300"
             >
-              <div className="text-yellow-500 mb-4">{service.icon}</div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">{service.title}</h3>
+              <div className="text-blue-600 mb-5">{service.icon}</div>
+              <h3 className="text-lg font-bold text-gray-800 mb-3">{service.title}</h3>
               <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
             </div>
           ))}
