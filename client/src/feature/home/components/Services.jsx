@@ -25,32 +25,53 @@ const services = [
 
 const ServiceCard = ({ icon, title, description }) => {
   return (
-    <div className="group relative rounded-xl p-[1.5px] bg-gradient-to-br from-gold via-blue to-darkblue hover:from-blue hover:via-gold hover:to-darkblue transition-all duration-500">
+    <div className="relative bg-white rounded-xl p-8 border border-blue/50 shadow-sm flex flex-col h-full">
+      
+      {/* always visible top accent */}
+      <span className="absolute top-0 left-0 w-full h-[2px] bg-blue rounded-t-xl" />
+
       <div className="mb-6 flex items-center gap-4">
-        <div className="p-3 rounded-lg bg-gray-50 group-hover:bg-gold/10 transition-colors">{icon}</div>
+        {/* icon background always subtle blue */}
+        <div className="p-3 rounded-lg bg-blue/5">
+          {icon}
+        </div>
         <h3 className="text-xl font-semibold text-darkblue">{title}</h3>
       </div>
 
-      <p className="text-darkgray text-base leading-relaxed mb-6 flex-grow">{description}</p>
+      <p className="text-darkgray text-base leading-relaxed mb-6 flex-grow">
+        {description}
+      </p>
 
       <div className="pt-6 border-t border-gray-100 mt-auto">
-        <button className="flex items-center gap-2 text-sm font-semibold text-blue hover:text-darkblue transition-colors group/btn">
+        <button className="flex items-center gap-2 text-sm font-semibold text-blue group/btn">
           <span>Learn More</span>
-          <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" weight="bold" />
+          <ArrowRight
+            className="w-4 h-4 transition-transform"
+            weight="bold"
+          />
         </button>
       </div>
     </div>
   )
 }
 
+
 export default function Service() {
   return (
     <section className="py-20 px-6 md:px-12 lg:px-24 bg-bg font-text">
       <div className="max-w-6xl mx-auto">
+
         <div className="text-center mb-16">
-          <span className="text-gold font-semibold text-sm uppercase tracking-widest mb-3 block">What We Do</span>
-          <h2 className="text-3xl md:text-4xl font-bold text-darkblue mb-4">Our Core Services</h2>
+          <span className="text-gold font-semibold text-sm uppercase tracking-widest mb-3 block">
+            What We Do
+          </span>
+
+          <h2 className="text-3xl md:text-4xl font-bold text-darkblue mb-4">
+            Our Core Services
+          </h2>
+
           <div className="w-16 h-1 bg-blue mx-auto mb-6"></div>
+
           <p className="text-darkgray text-lg max-w-2xl mx-auto leading-relaxed">
             We provide comprehensive healthcare solutions through strategic initiatives designed to transform the
             Ethiopian medical landscape.
@@ -62,6 +83,7 @@ export default function Service() {
             <ServiceCard key={index} {...service} />
           ))}
         </div>
+
       </div>
     </section>
   )

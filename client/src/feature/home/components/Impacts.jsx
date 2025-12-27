@@ -1,15 +1,5 @@
 import { Users, Globe, Student, FirstAid } from "phosphor-react"
 
-/**
- * Impact Component for HELPEthiopia
- *
- * Features:
- * - High-contrast single-line statistics bar
- * - Clear, high-resolution background (no blur)
- * - Deep gradient overlay and text shadows for readability
- * - Bold brand colors: Gold (#ffde59) and Blue (#233875)
- * - Formal and professional aesthetic
- */
 const Impact = () => {
   const stats = [
     {
@@ -49,6 +39,16 @@ const Impact = () => {
       <div className="absolute inset-0 z-0 bg-darkblue/75 bg-gradient-to-r from-darkblue/90 via-darkblue/70 to-darkblue/90" />
 
       <div className="relative z-10 w-full max-w-7xl px-4 sm:px-6">
+        {/* Title and Subtitle */}
+        <div className="text-center mb-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gold mb-1">
+            Our Impact
+          </h2>
+          <p className="text-white/90 text-sm sm:text-base font-semibold tracking-wide">
+            Transforming lives and communities across Ethiopia
+          </p>
+        </div>
+
         <div className="py-8 px-6 sm:px-12 border-y border-white/10 bg-white/5 backdrop-blur-[2px]">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 items-center justify-center">
             {stats.map((stat, index) => (
