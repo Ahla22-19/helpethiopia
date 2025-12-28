@@ -1,9 +1,14 @@
-import About from "../feature/about/components/About";
+import Hero from "../feature/about/components/Hero";
+import HowWeStarted from "../feature/about/components/HowWeStarted";
+import Mission from "../feature/about/components/Mission";
 
 const AboutPage = () => {
   return (
     <>
-      <About />
+      <Hero />
+      <HowWeStarted />
+      <Mission />
+
     </>
   );
 };
