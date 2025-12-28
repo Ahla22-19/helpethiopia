@@ -9,30 +9,24 @@ const SimpleHero = () => {
 
       <div className="container relative mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-center">
-            What <span className="text-blue-600">We Do</span>
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center" style={{ fontFamily: "var(--font-text)" }}>
+  <span style={{ color: "var(--color-blue)" }}>About</span> <span style={{ color: "var(--color-darkblue)" }}>HELP Ethiopia</span>
+</h1>
+
           
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-lg">
-            <div className="space-y-5 text-base text-gray-700">
-              <p>
-                <strong className="text-blue-700 text-lg">HELP Ethiopia fights for better healthcare in Ethiopia.</strong> Our Ye'Eteye Health Charity directly aids patients struggling with medical bills at Tikur Anbessa Hospital.
-              </p>
-              
-              <p>
-                We go beyond finances, championing quality improvements in hospitals by streamlining procedures, improving patient transfers, and enhancing data management for better decision making. We also focus on optimizing hospital layouts for smoother patient flow and well-being.
-              </p>
-              
-              <p>
-                But HELP Ethiopia doesn't stop there. We invest in the future by building leadership skills in young Ethiopians, ensuring a new generation equipped to tackle healthcare challenges.
+            <div className="space-y-5 text-base text-darkgray" style={{ fontFamily: "var(--font-text)" }}>
+              <p className="text-sm md:text-lg leading-7 md:leading-9">
+                HELP Ethiopia is a multidisciplinary non-profit organization that has been registered and accorded legal personality in Ethiopia with registry number 5623. Committed to improving healthcare, we collaborate with local and international stakeholders to address neglected areas of health service delivery and training. We also have a dedicated charity program targeting economically disadvantaged groups of our society- Ye&apos;Eteye Health Charity. Furthermore, we advocate for quality education, leadership and collaboration as a tool for sustainable healthcare and societal development. Hence the name &quot;HELP&quot; which stands for Health, Education, Leadership and Partnership.
               </p>
             </div>
             
             {/* Pill tags at the bottom */}
-            <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap justify-center gap-3">
-              <span className="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full font-medium text-sm">Charity Support</span>
-              <span className="bg-yellow-100 text-yellow-800 px-4 py-1.5 rounded-full font-medium text-sm">Quality Improvement</span>
-              <span className="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full font-medium text-sm">Education & Leadership</span>
+            <div className="mt-8 pt-6 border-t border-lightgray flex flex-wrap justify-center gap-3">
+              <span className="bg-gold text-darkblue px-4 py-1.5 rounded-full font-medium text-sm">Health</span>
+              <span className="bg-blue text-gold px-4 py-1.5 rounded-full font-medium text-sm">Education</span>
+              <span className="bg-darkblue text-gold px-4 py-1.5 rounded-full font-medium text-sm">Leadership</span>
+              <span className="bg-lightgray text-darkblue px-4 py-1.5 rounded-full font-medium text-sm">Partnership</span>
             </div>
           </div>
         </div>
