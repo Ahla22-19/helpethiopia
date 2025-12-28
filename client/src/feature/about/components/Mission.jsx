@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { CheckCircle, Eye, Activity, Users } from "phosphor-react";
 
-export default function Service() {
+export default function Mission() {
   return (
     <div className="pb-8 md:pb-16 px-6 md:px-12 lg:px-24 xl:px-32 bg-[var(--color-bg)] font-text">
       <div className="max-w-7xl mx-auto">
