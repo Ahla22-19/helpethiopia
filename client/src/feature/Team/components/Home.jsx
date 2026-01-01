@@ -1,4 +1,4 @@
-import { team_data } from "../../../constant";
+import { team_data } from "../constant";
 import SectionTitle from "../../../components/SectionTitle";
 import TeamCard from "../../../components/TeamCard";
 import Avatar from "../../../components/Avatar";
