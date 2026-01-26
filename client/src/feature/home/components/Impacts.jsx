@@ -14,7 +14,7 @@ const Impact = () => {
 
       <div className="relative z-10 w-full max-w-7xl px-4 sm:px-6">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-gold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gold mb-4">
             Our Impact
           </h2>
           <p className="text-bg text-xs sm:text-sm md:text-base leading-6 md:leading-loose text-center">

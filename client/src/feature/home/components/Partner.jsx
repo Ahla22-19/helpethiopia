@@ -5,7 +5,7 @@ const Partner = () => {
     <div className="pt-8 pb-1 md:py-12 px-6 md:px-12 lg:px-24 bg-bg font-text">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-darkblue mb-4 pt-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-darkblue mb-4 pt-4">
             Our Trusted Partners
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-6 md:leading-loose text-center">

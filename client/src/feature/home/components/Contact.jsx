@@ -53,7 +53,7 @@ const Contact = () => {
         setErrorMessage(
           error.response?.data?.message ||
             error.message ||
-            "Failed to send message. Please try again later."
+            "Failed to send message. Please try again later.",
         );
       } finally {
         setSubmitting(false);
@@ -75,7 +75,7 @@ const Contact = () => {
     <div className="py-16 px-6 md:px-12 lg:px-24 bg-bg font-text">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 sm:mb-14 md:mb-16">
-          <h1 className="text-3xl md:text-4xl font-bold text-darkblue mb-4">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-darkblue mb-4">
             Get In Touch
           </h1>
           <p className="text-darkgray text-xs sm:text-sm md:text-base max-w-5xl mx-auto leading-6 md:leading-loose">

@@ -27,7 +27,7 @@ const Mission = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8">
-          <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-bg">
+          <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-bg">
             <div className="flex items-start mb-6">
               <div className="bg-darkblue/10 p-2 md:p-3 rounded-xl mr-4">
                 <ShieldCheck
@@ -44,12 +44,12 @@ const Mission = () => {
               </div>
             </div>
             <div className="space-y-4 text-xs sm:text-sm md:text-base">
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-6 md:leading-loose">
                 To catalyze sustainable development in Ethiopia by empowering
                 healthcare professionals, driving innovation, and fostering a
                 comprehensive and inclusive healthcare ecosystem.
               </p>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-6 md:leading-loose">
                 Fueled by the belief that every individual deserves access to
                 quality healthcare and education, regardless of their
                 circumstances.
@@ -57,7 +57,7 @@ const Mission = () => {
             </div>
           </div>
 
-          <div className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-bg">
+          <div className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl shadow-lg border border-bg">
             <div className="flex items-start mb-6">
               <div className="bg-darkblue/10 p-2 md:p-3 rounded-xl mr-4">
                 <GlobeHemisphereWest
@@ -73,7 +73,7 @@ const Mission = () => {
                 <div className="w-16 h-1 bg-gold rounded-full"></div>
               </div>
             </div>
-            <p className="text-gray-700 text-xs sm:text-sm md:text-base leading-relaxed">
+            <p className="text-gray-700 text-xs sm:text-sm md:text-base leading-6 md:leading-loose">
               A Healthy and Resilient Ethiopia with advanced healthcare
               infrastructure, a well-trained workforce, streamlined processes,
               and inclusive healthcare services for all.

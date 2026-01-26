@@ -4,9 +4,9 @@ import { services } from "../constant/index";
 const Services = () => {
   return (
     <div className="pt-4 pb-14 sm:pt-10 sm:pb-20 px-6 md:px-12 lg:px-24 bg-bg font-text">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-darkblue mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-darkblue mb-4">
             Our Core Services
           </h2>
 

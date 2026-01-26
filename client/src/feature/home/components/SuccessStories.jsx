@@ -6,7 +6,7 @@ const SuccessStories = () => {
     <div className="pt-12 pb-2 sm:py-12 px-6 md:px-12 lg:px-24 bg-bg font-text">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 sm:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-darkblue mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-darkblue mb-4">
             Success Stories
           </h2>
           <p className="text-darkgray text-xs sm:text-sm md:text-base max-w-5xl mx-auto leading-6 md:leading-loose">
@@ -52,7 +52,7 @@ const SuccessStories = () => {
                     </span>
 
                     <p
-                      className="text-darkgray leading-relaxed text-xs sm:text-base flex-grow"
+                      className="text-darkgray leading-relaxed text-xs sm:text-base grow"
                       dangerouslySetInnerHTML={{ __html: story.story }}
                     ></p>
 

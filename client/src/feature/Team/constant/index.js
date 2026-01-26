@@ -58,7 +58,7 @@ export const team_data = [
   {
     image: userIcon,
     name: "Dagim Getaw",
-    position: "Full-Stack Developer",
+    position: "Lead Developer",
     Biography: "Biography",
     linkedin: "link2",
     gmail: "link3",
@@ -73,7 +73,7 @@ export const team_data = [
   },
   {
     image: userIcon,
-    name: "Elham",
+    name: "Elham Abdu",
     position: "Full-Stack Developer",
     Biography: "Biography",
     linkedin: "link2",
