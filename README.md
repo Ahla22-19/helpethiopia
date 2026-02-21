@@ -33,7 +33,7 @@ All development work, features, and the complete project code are located in the
 
 ## 📬 Contact
 
-**Ahlam Zeynu** – Frontend Developer
+**Ahlam Zeynu** – Fullstack Developer
 - 📧 Email: [zeynuahlam@gmail.com](mailto:zeynuahlam@gmail.com)
 - 💻 GitHub: [@Ahla22-19](https://github.com/Ahla22-19)
 
