@@ -123,10 +123,16 @@ Since launching, the platform has contributed to supporting HELP Ethiopia's miss
 
 - **HELP Ethiopia Organization** – For the opportunity to contribute to their mission
 - **Tikur Anbessa Specialised Hospital** – For their critical healthcare work
-- **Chapa** – For providing the payment gateway infrastructure
-- **Adama Science and Technology University** – For supporting student developers
+- 
+## ⭐ Show Your Support
 
----
+If you find this project meaningful, please consider:
+
+- ⭐ **Starring the repository** – It helps others discover this project
+- 🌐 **Sharing the website** – [https://app.helpethiopia.org.et/](https://app.helpethiopia.org.et/)
+- 💰 **Donating** – Directly through the platform to support patients in need
+
+
 
 ## 📄 License
 
