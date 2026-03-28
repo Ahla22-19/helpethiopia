@@ -123,7 +123,7 @@ Since launching, the platform has contributed to supporting HELP Ethiopia's miss
 
 - **HELP Ethiopia Organization** – For the opportunity to contribute to their mission
 - **Tikur Anbessa Specialised Hospital** – For their critical healthcare work
-- 
+
 ## ⭐ Show Your Support
 
 If you find this project meaningful, please consider:
